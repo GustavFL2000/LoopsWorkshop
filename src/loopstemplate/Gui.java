@@ -29,6 +29,8 @@ public class Gui extends Application {
 
     private void drawShapes(Pane pane) {
         Line line = new Line(10, 10, 150, 80);
+        Line line2 = new Line(0,1,15,8);
         pane.getChildren().add(line);
+        pane.getChildren().add(line2);
     }
 }
